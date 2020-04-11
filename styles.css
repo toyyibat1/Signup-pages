@@ -1,12 +1,12 @@
 body{
     background-color: #062863;
-    background-image: url('img/left-top.PNG'),
-    url('img/right-top.PNG'), 
-    url('img/left-bottom.PNG'),
-    url('img/right-bottom.PNG');
-        background-repeat: no-repeat;
+    background-image: url('img/data_image_png;base….png'),
+    url('img/data_image_png;base… (1).png'), 
+    url('img/data_image_png;base… (3).png'),
+    url('img/data_image_png;base… (2).png');
+    background-repeat: no-repeat;
     background-size: 18%;
-    background-position: top -25% left -5%, top -15% right -12%, bottom -28% left -10%, bottom -14% right -10%;
+    background-position: top -20% left -2%, top -1% right -11%, bottom -15% left -7%, bottom -8% right -8%;
     background-attachment: fixed;
     position: relative;
     display: flex;
@@ -16,9 +16,11 @@ body{
     margin: 0;
     width: 100%;
     height: auto;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
+@media (max-width: 700px) {
+ }
+
 
 .img{
     text-align: center;

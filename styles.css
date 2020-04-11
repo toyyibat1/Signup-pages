@@ -1,14 +1,26 @@
 body{
+    font-family: 'Baloo Thambi 2', cursive;
     background-color: #062863;
-    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
-    line-height: 1.5;
-    border: 0 solid #e2e8f0;
-    --transition-duration: 250ms;
+    background-image: url('img/left-top.PNG'),
+    url('img/right-top.PNG'), 
+    url('img/left-bottom.PNG'),
+    url('img/right-bottom.PNG');
+        background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: top -25% left -5%, top -15% right -12%, bottom -28% left -10%, bottom -14% right -10%;
+    background-attachment: fixed;
+    position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    box-sizing: inherit;
+    place-items: center;
+    padding: 48px 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
 }
+
 .img{
     text-align: center;
     box-sizing: inherit;
@@ -132,16 +144,6 @@ input, select{
 
 .icon-flex-bottom {
     justify-content: flex-end;
-}
-
-.icons {
-    background-image: url('img/left-top.PNG'),
-     url('img/right-top.PNG'), 
-     url('img/left-bottom.PNG'),
-     url('img/right-bottom.PNG');
-    background-size: 15%, 15%, 15%, 15%;
-    background-position: left -1% top -5%, right -7.5% top -1%, left -5% bottom -5%, right -5% bottom -5%;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 }
 
 .img-icon {
